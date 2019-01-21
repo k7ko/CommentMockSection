@@ -1,4 +1,4 @@
-from user import User
+from user import User,Admin,Moderator
 users = []
 
 from datetime import datetime
@@ -35,5 +35,8 @@ def login(username,password):
     
     
 if __name__=="__main__":
+    # Admin("admin","admin123")
+    # users.append(Admin)
     signup("Patrick","password123")
     login("Patrick","password123")
+    login("admin","admin123")
