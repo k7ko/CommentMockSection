@@ -9,3 +9,13 @@ class User():
 
     def isLoggedin(self):
         return self.isLoggedIn
+
+    
+
+class Moderator(User):
+
+   pass
+
+class Admin(Moderator):
+    pass
+        
